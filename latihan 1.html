@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<title>Format Text</title>
+	</head>
+	<body>
+		<p><h1>Format Text</h1>
+		<p><b>Ini Tulisan Tebal</b><hl>
+		<p><i>Ini tulisan Miring</i><hl>
+		<p><u>Ini Tulisan Bergaris Bawah</u><hl>
+		<p>Saya Jurusan <del>TKJ</del> RPL<hl>
+		<p>Ini Pangkat <sup>Diatas</sup><hl>
+		<p>Ini Pangkat <sub>Dibawah</sub><hl>
+		<p><mark>Ini Tulisan Penting</mark><hl>
+		<p><h1>List</h1>
+		<ol>
+		<p><li>Daftar Pelajaran yang Saya Sukai</li>
+		   <ul>
+			<p><li><abbr title="Matematika">MTK</abbr></li>
+			<p><li><abbr title="Pemrograman Web dan Perangkat Bergerak">PWPB</abbr></li>
+			<p><li>Olahraga</li>
+		   </ul>	
+		<p><li>Daftar Pelajaran yang Saya Senangi</li>
+		   <ul>		   
+			<p><li><abbr title="Matematika">MTK</abbr></li>
+			<p><li><abbr title="Pemrograman Web dan Perangkat Bergerak">PWPB</abbr></li>
+			<p><li>Olahraga</li>
+		   </ul>
+		</ol>
+		<table>
+			<table border="2" width="100%">
+				<tr>
+					<th rowspan="2">No</th>
+					<th rowspan="2">Nama</th>
+					<th colspan="3">Hobi</th>
+					<th rowspan="2">Cita-Cita</th>
+					<th rowspan="2">Foto</th>
+					<th colspan="2">Sosial Media</th>
+				</tr>
+				<tr>
+					<th>1</th>
+					<th>2</th>
+					<th>3</th>
+					<th>IG</th>
+					<th>Twitter</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Muhammad Andika</td>
+					<td>Sepak Bola</td>
+					<td>Sepak Bola</td>
+					<td>Sepak Bola</td>
+					<td>Programmer</td>
+					<td><img src="file://E:/video/d.jpeg"alt="Foto Profil"></td>
+					<td>Muhammad Andika</td>
+					<td>AndikaMuhammad104@</td>
+
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Rizky Ananda</td>
+					<td>Sepak Bola</td>
+					<td>Sepak Bola</td>
+					<td>Sepak Bola</td>
+					<td>Programmer</td>
+					<td><img src="d.jpeg"alt="Foto Profil"></td>
+					<td>Rizky Ananda</td>
+					<td>AnandaRizky46@</td>
+				</tr>
+			<audio controls>
+				<source src="m.mp3" type="audio/mpeg">
+			</audio>
+			<video controls widht="400" height="400" poster="pict.jpg">
+				<source src="file://E:/video/v.mp4" type="video/mp4">
+			</video>
+			<a href="http://youtube.com">youtube</a>
+				<a href="http://youtube.com"><img src="d.jpeg"></a>
+		</table>
+		<h1>Formulir</h1>
+		<form>
+			<table width="100%">
+				<tr>
+					<td>Sekolah</td>
+					<td><input type="text" name="Sekolah" value="SMKN 2 Guguak" readonly></td>
+				</tr>
+				<tr>
+					<td width="20%">Nama</td>
+					<td width="80%"><input type="text" name="Nama" required></td>
+				</tr>
+				<tr>
+					<td>NIS</td>
+					<td><input type="text" name="NIS" maxlength="9" required></td>
+				</tr>
+				<tr>
+					<td>Tanggal Lahir</td>
+					<td><input type="date" max="2002-01-01" min="1990-01-01" name="tgl-lahir"></td>
+				</tr>
+				<tr>
+					<td>Anak ke</td>
+					<td><input type="number" name="anak" min="1" max="20" step="2"</td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td><input type="radio" name="jk" value="laki" required>Laki-Laki<br><input type="radio" name="jk" value="pr" required>Perempuan</td>
+				</tr>
+				<tr>
+					<td>Alamat</td>
+					<td><textarea name="Alamat" placeholder required></textarea></td>
+				</tr>
+				<tr>
+					<td>Agama</td>
+					<td>
+						<select name="Agama" size="3" multiple>
+							<option value="Islam">Islam</option>
+							<option value="Kristen">Kristen</option>
+							<option value="Khatolik">Khatolik</option>
+							<option value="Hindu">Hindu</option>
+							<option value="Budha">Budha</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>hobi</td>
+					<td><input type="checkbox" name="hobi" value="Sepak bola">Sepak bola<br>
+						<input type="checkbox" name="hobi" value="Bola voli">Bola voli<br>
+						<input type="checkbox" name="hobi" value="Renang">Renang<br>
+						<input type="checkbox" name="hobi" value="Badminton">Badminton
+					</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="Password" required
+				</tr>
+				<tr>
+					<td>Foto</td>
+					<td><input type="file" name="file">
+				</tr>
+				<tr>
+					<td>Tingkat Kegantengan</td>
+					<td><input type="range" name="ganteng" min="1" max="10"</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Kirim">
+						<input type="reset" value="Reset">
+					</td>
+				</tr>
+	</body>
+</html>
